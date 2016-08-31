@@ -1,6 +1,6 @@
 {
-  "name": "starwars-names",
-  "version": "1.0.0",
+  "name": "starwars-names-zhengyang",
+  "version": "1.0.1",
   "description": "\"# starwars-names\"",
   "main": "src/index.js",
   "scripts": {
