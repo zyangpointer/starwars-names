@@ -23,5 +23,13 @@ describe('starwars-names-zhengyang', function(){
           var randomItem = starwars.random();
           expect(starwars.all).to.include(randomItem)
       });
+
+      it('should return a return an array of random items if passed a number ', function() {
+        var randomItems = starwars.random(3);
+        expect(randomItems).to.have.length(3);
+        randomItems.forEach(function(item){
+          expect(randomItems).to.include(item);
+        });
+      })
   });
 });
